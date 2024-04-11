@@ -51,7 +51,7 @@ The following code runs on both my phone and desktop app, meaning that the notif
 
 That's all you have to do! When the user dismisses (or clicks on) a notification, we'll check if it has a RemoteId, and if so, we'll fan out a dismiss of that RemoteId across all the user's devices.
 
-**Known Issue**: Retrieving the **RemoteId** via the `ToastNotificationHistory.GetHistory()` API's will always return empty string rather than the **RemoteId** you specified. Don't worry, everything is functional - it's only retrieving the value that's broken.
+**Known Issue**: Retrieving the **RemoteId** via the `ToastNotificationHistory.GetHistory()` APIs will always return empty string rather than the **RemoteId** you specified. Don't worry, everything is functional - it's only retrieving the value that's broken.
 
 > [!NOTE]
 > If the user or enterprise disables [notification mirroring](notification-mirroring.md) for your app (or completely disables notification mirroring), then Universal Dismiss will not work, since we do not have your notifications in the cloud.

@@ -22,7 +22,7 @@ Animations from the Windows Runtime animation library provide these benefits:
 
 For example, when the user adds an item to a list, instead of the new item instantly appearing in the list, the new item animates into place. The other items in the list animate to their new positions over a short period of time, making room for the added item. The transition behavior here makes the control interaction more apparent to the user.
 
-Windows 10, version 1607 introduces a new [**ConnectedAnimationService**](/uwp/api/windows.ui.xaml.media.animation.connectedanimationservice) API for implementing animations where an element appears to animate between views during a navigation. This API has a different usage pattern from the other animation library API's. Usage of **ConnectedAnimationService** is covered in the [reference page](/uwp/api/windows.ui.xaml.media.animation.connectedanimationservice).
+Windows 10, version 1607 introduces a new [**ConnectedAnimationService**](/uwp/api/windows.ui.xaml.media.animation.connectedanimationservice) API for implementing animations where an element appears to animate between views during a navigation. This API has a different usage pattern from the other animation library APIs. Usage of **ConnectedAnimationService** is covered in the [reference page](/uwp/api/windows.ui.xaml.media.animation.connectedanimationservice).
 
 The animation library does not provide animations for every possible scenario. There are cases where you might wish to create a custom animation in XAML. For more info, see [Storyboarded animations](storyboarded-animations.md).
 

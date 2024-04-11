@@ -46,7 +46,7 @@ Windows app developers, enterprises, and users can choose to disable notificatio
 
 You occasionally might have a device-specific notification that you don't want to be mirrored to other devices. You can prevent a specific notification from being mirrored by setting the **Mirroring** property on the toast notification. Currently, this mirroring property can only be set on local notifications (it can not be specified when sending a WNS push notification).
 
-**Known Issue**: Retrieving the Mirroring property via the `ToastNotificationHistory.GetHistory()` API's will always return the default value (**Allowed**) rather than the option you specified. Don't worry, everything is functional - it's only retrieving the value that's broken.
+**Known Issue**: Retrieving the Mirroring property via the `ToastNotificationHistory.GetHistory()` APIs will always return the default value (**Allowed**) rather than the option you specified. Don't worry, everything is functional - it's only retrieving the value that's broken.
 
 ```csharp
 var toast = new ToastNotification(xml)

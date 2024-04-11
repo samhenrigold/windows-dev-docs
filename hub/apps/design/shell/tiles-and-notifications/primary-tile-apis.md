@@ -1,7 +1,7 @@
 ---
 description: You can programmatically pin your own app's primary tile to Start, just like you can pin secondary tiles. And you can check whether it's currently pinned.
-title: Primary tile API's
-label: Primary tile API's
+title: Primary tile APIs
+label: Primary tile APIs
 template: detail.hbs
 ms.date: 05/19/2017
 ms.topic: article
@@ -30,18 +30,18 @@ You put a lot of effort into designing a great experience for your app’s prima
 * **Don't** call the pin API without explicit user interaction or when your app is minimized/not open.
 
 
-## Checking whether the API's exist
+## Checking whether the APIs exist
 
 If your app supports older versions of Windows 10, you need to check whether these primary tile APIs are available. You do this by using ApiInformation. If the primary tile APIs aren't available, avoid executing any calls to the APIs.
 
 ```csharp
 if (ApiInformation.IsTypePresent("Windows.UI.StartScreen.StartScreenManager"))
 {
-    // Primary tile API's supported!
+    // Primary tile APIs supported!
 }
 else
 {
-    // Older version of Windows, no primary tile API's
+    // Older version of Windows, no primary tile APIs
 }
 ```
 

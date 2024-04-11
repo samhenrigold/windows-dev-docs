@@ -65,7 +65,7 @@ Use these same tools to analyze your code. Download the tools here ([dotnet-apip
 &nbsp;
 > [!VIDEO https://www.youtube-nocookie.com/embed/rzs_FGPyAlY?list=PLRAdsfhKI4OWx321A_pr-7HhRNk7wOLLY&amp;ecver=2]
 
-If your code isn't compatible with the standard, consider other ways that you could implement that code. Start by opening the [.NET API Browser](/dotnet/api/?view=netstandard-2.0&preserve-view=true). You can use that browser to review the API's that are available in the .NET Standard 2.0. Make sure to scope the list to the .NET Standard 2.0.
+If your code isn't compatible with the standard, consider other ways that you could implement that code. Start by opening the [.NET API Browser](/dotnet/api/?view=netstandard-2.0&preserve-view=true). You can use that browser to review the APIs that are available in the .NET Standard 2.0. Make sure to scope the list to the .NET Standard 2.0.
 
 ![dot net option](images/desktop-to-uwp/dot-net-option.png)
 

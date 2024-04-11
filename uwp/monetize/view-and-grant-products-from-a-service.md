@@ -21,7 +21,7 @@ These APIs consist of REST methods that are designed to be used by developers wi
 
 ## The Microsoft.StoreServices library
 
-To help streamline the authentication flow and calling the Microsoft Store Services, review the Microsoft.StoreServices project and sample on Github.  The Microsoft.StoreServices library will help manage the authentication keys and provides wrapper API's to call into the Microsoft Store Services for managing products.  The sample project highlights how a service can use the Microsoft.StoreServices library, example logic for managing consumable products, reconciling refunded purchases, renew expired credentials, and more.  A step-by-step configuration guide is included with the sample to setup the sample service on your PC or through Azure.  
+To help streamline the authentication flow and calling the Microsoft Store Services, review the Microsoft.StoreServices project and sample on Github.  The Microsoft.StoreServices library will help manage the authentication keys and provides wrapper APIs to call into the Microsoft Store Services for managing products.  The sample project highlights how a service can use the Microsoft.StoreServices library, example logic for managing consumable products, reconciling refunded purchases, renew expired credentials, and more.  A step-by-step configuration guide is included with the sample to setup the sample service on your PC or through Azure.  
 
 - [Microsoft.StoreServices library (GitHub)](https://github.com/microsoft/Microsoft-Store-Services) 
 - [Microsoft.StoreServices Sample (GitHub)](https://github.com/microsoft/Microsoft-Store-Services-Sample) 
