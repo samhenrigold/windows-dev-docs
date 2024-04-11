@@ -478,7 +478,7 @@ To customize an expanded XAML template, you need to make a copy of it in your ap
     <GridView ItemContainerStyle="{StaticResource GridViewItemExpanded}"/>
     ```
 2. In the Visual Studio Properties pane, expand the Miscellaneous section and find the ItemContainerStyle property. (Make sure the ListView or GridView is selected.)
-3. Click the property marker for the ItemContainerStyle property. (It's the small box next to the TextBox. It's coloreed green to show that it's set to a StaticResource.) The property menu opens.
+3. Click the property marker for the ItemContainerStyle property. (It's the small box next to the TextBox. It's colored green to show that it's set to a StaticResource.) The property menu opens.
 4. In the property menu, click **Convert to New Resource**. 
     
     ![Visual Studio property menu](images/listview-convert-resource-vs.png)
