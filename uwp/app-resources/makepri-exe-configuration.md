@@ -144,7 +144,7 @@ MakePri.exe generates this new, initialized PRI config file when the [createconf
 
 The `packaging` element defines PRI split information. The schema for the `packaging` element is defined for both automatic (support for `autoResourcePackage` along a specific dimension), and manual configuration.
 
-This example shows how to use `autoResourcePackage` along a specific dimension.
+This example shows how to use `autoResourcePackage` along a specific dimension:
 
 ```xml
 	<packaging>
@@ -154,7 +154,7 @@ This example shows how to use `autoResourcePackage` along a specific dimension.
 	</packaging>
 ```
 
-This example shows how to use manual `resourcePackage`.
+This example shows how to use manual `resourcePackage`:
 
 ```xml
   <packaging>
@@ -218,9 +218,7 @@ MakePri.exe adds the value of `isDeploymentMergeable` to the dump file if `makep
 
 ## resources@majorVersion attribute
 
-The default value for this attribute is 1. If you provide an explicit value, and you also use the deprecated `/VersionMajor(vma)` command-line option for the MakePri.exe tool, then the value in the config file takes precedence.
-
-Here's an example.
+The default value for this attribute is 1. If you provide an explicit value, and you also use the deprecated `/VersionMajor(vma)` command-line option for the MakePri.exe tool, then the value in the config file takes precedence:
 
 ```xml
 <resources majorVersion="2">
@@ -241,7 +239,7 @@ Indicates the target operating system version. The table below shows the values 
 | 6.3.0 (default) | Windows 8.1 |
 | 6.2.1 | Windows 8 |
 
-Here's an example.
+Here's an example:
 
 ```xml
 <resources targetOsVersion="10.0.0">

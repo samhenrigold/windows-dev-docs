@@ -77,7 +77,7 @@ XAML
   AutomationProperties.Name="An image of a customer using the product."/>
 ```
 
-Alternatively, consider including a text caption that appears in the visible UI and that also serves as the label-associated accessibility information for the image content. Here's an example:
+Alternatively, consider including a text caption that appears in the visible UI and that also serves as the label-associated accessibility information for the image content:
 
 XAML
 ```xml
